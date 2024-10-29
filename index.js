@@ -11,6 +11,10 @@ app.get('/', (req, res)=>{
     res.send("welcome");
 })
 
+app.get('/jokes', (req, res)=>{
+    res.send("alok gupta");
+})
+
 
 app.listen(process.env.PORT, ()=>{
     console.log(`listening on ${port}`);
